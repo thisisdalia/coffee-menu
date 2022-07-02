@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "vibes";
-  src: url("/coffee/fonts/GreatVibes-Regular.ttf");
+  src: url("/fonts/GreatVibes-Regular.ttf");
 }
 
 html {
@@ -84,7 +84,7 @@ nav ul a:hover {
 
 .section1 {
   height: 90vh;
-  background: url("/coffee/img/breakfast/image.webp");
+  background: url("/img/breakfast/image.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -198,12 +198,6 @@ nav ul a:hover {
   text-shadow: black;
  
 }
-
-
-
-
-
-
 
 
 
