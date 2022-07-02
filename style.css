@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "vibes";
+  src: url("/coffee/fonts/GreatVibes-Regular.ttf");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* the header*/
+
+.head1 {
+  background: rgb(13, 68, 13);
+  color: rgb(178, 209, 157);
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+h1 {
+  font-family: "vibes", sans-serif;
+}
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 45rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  display: flex;
+  flex: 1 1 45rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+  transition: color font-size 0.3s ease-in-out;
+}
+nav ul a:hover {
+  color: lawngreen;
+  font-size: 3rem;
+}
+
+#menu {
+  font-size: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  animation: menu 2s infinite alternate;
+}
+
+@keyframes menu {
+  0% {
+    color: rgb(227, 230, 70);
+  }
+  50% {
+    color: rgb(236, 187, 25);
+  }
+  100% {
+    color: rgb(0, 211, 141);
+  }
+}
+
+/* the breakfast*/
+
+.section1 {
+  height: 90vh;
+  background: url("/coffee/img/breakfast/image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.breakfast {
+  font-size: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: none;
+  border: 0.3rem solid rgb(13, 43, 13);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: linear-gradient(rgba(235, 232, 83, 0.7), transparent);
+}
+.breakfast {
+  border-bottom: none;
+}
+.breakfast p {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: none;
+}
+.p2 {
+  animation: p1animation 2s infinite alternate;
+  text-shadow: 1px 1px black;
+}
+@keyframes p1animation {
+  0% {
+    color: rgb(13, 43, 13);
+  }
+  50% {
+    color: rgb(13, 68, 13);
+  }
+  100% {
+    color: rgb(178, 209, 157);
+  }
+}
+.button1 {
+  border: none;
+  background: none;
+  font-size: 3rem;
+  cursor: pointer;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  border: solid rgba(10, 48, 14, 0.9);
+  border-top: none;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 2rem 15.5rem;
+  transition: background color 1s ease-in-out;
+}
+.button1:hover {
+  background: linear-gradient(to top, rgba(10, 48, 14, 0.9), transparent);
+  color: rgb(13, 43, 13);
+}
+
+
+
+/*drink section*/
+
+.section3{
+  background: rgba(180, 19, 19, 0.966);
+}
+
+.section3 img{
+  height: 100vh;
+  flex: 1 1 40rem;
+  position: relative;
+
+}
+
+.drink{
+  color: black;
+  position: absolute;
+  font-size: 3rem;
+  top: 140%;
+  right: 13%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+
+}
+
+.drink h1{
+  padding-left: 8rem;
+  padding-bottom: 2rem;
+}
+
+.button3{
+  position: absolute;
+  color:white;
+  top: 105rem;
+  right: 23rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(180, 19, 19, 0.966);
+  font-size: 3rem;
+  padding-top: 3rem;
+  transition: all 1s ease-in-out;
+}
+
+.button3 :hover{
+  text-shadow: black;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
