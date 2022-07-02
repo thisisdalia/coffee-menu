@@ -22,9 +22,11 @@ html {
   top: 0px;
   z-index: 3;
 }
+
 h1 {
   font-family: "vibes", sans-serif;
 }
+
 nav {
   min-height: 10vh;
   display: flex;
@@ -35,6 +37,7 @@ nav {
   position: sticky;
   top: 0px;
 }
+
 nav ul {
   display: flex;
   flex: 1 1 45rem;
@@ -43,6 +46,7 @@ nav ul {
   list-style: none;
   flex-wrap: wrap;
 }
+
 a {
   list-style: none;
   text-decoration: none;
@@ -55,6 +59,7 @@ a {
   justify-items: center;
   transition: color font-size 0.3s ease-in-out;
 }
+
 nav ul a:hover {
   color: lawngreen;
   font-size: 3rem;
@@ -72,9 +77,11 @@ nav ul a:hover {
   0% {
     color: rgb(227, 230, 70);
   }
+
   50% {
     color: rgb(236, 187, 25);
   }
+
   100% {
     color: rgb(0, 211, 141);
   }
@@ -95,6 +102,7 @@ nav ul a:hover {
   text-align: center;
   flex-wrap: wrap;
 }
+
 .breakfast {
   font-size: 4rem;
   padding-left: 1rem;
@@ -105,30 +113,37 @@ nav ul a:hover {
   border-top-right-radius: 30px;
   background: linear-gradient(rgba(235, 232, 83, 0.7), transparent);
 }
+
 .breakfast {
   border-bottom: none;
 }
+
 .breakfast p {
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border-bottom: none;
 }
+
 .p2 {
   animation: p1animation 2s infinite alternate;
   text-shadow: 1px 1px black;
 }
+
 @keyframes p1animation {
   0% {
     color: rgb(13, 43, 13);
   }
+
   50% {
     color: rgb(13, 68, 13);
   }
+
   100% {
     color: rgb(178, 209, 157);
   }
 }
+
 .button1 {
   border: none;
   background: none;
@@ -143,6 +158,7 @@ nav ul a:hover {
   padding: 2rem 15.5rem;
   transition: background color 1s ease-in-out;
 }
+
 .button1:hover {
   background: linear-gradient(to top, rgba(10, 48, 14, 0.9), transparent);
   color: rgb(13, 43, 13);
@@ -152,18 +168,18 @@ nav ul a:hover {
 
 /*drink section*/
 
-.section3{
+.section3 {
   background: rgba(180, 19, 19, 0.966);
 }
 
-.section3 img{
+.section3 img {
   height: 100vh;
   flex: 1 1 40rem;
   position: relative;
 
 }
 
-.drink{
+.drink {
   color: black;
   position: absolute;
   font-size: 3rem;
@@ -176,14 +192,14 @@ nav ul a:hover {
 
 }
 
-.drink h1{
+.drink h1 {
   padding-left: 8rem;
   padding-bottom: 2rem;
 }
 
-.button3{
+.button3 {
   position: absolute;
-  color:white;
+  color: white;
   top: 105rem;
   right: 23rem;
   border: none;
@@ -194,34 +210,17 @@ nav ul a:hover {
   transition: all 1s ease-in-out;
 }
 
-.button3 :hover{
+.button3 :hover {
   text-shadow: black;
- 
+
 }
 
+.head--colorful {
+  background: #FC354C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
